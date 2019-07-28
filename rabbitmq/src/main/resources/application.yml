@@ -1,0 +1,10 @@
+server:
+  port: 10086
+spring:
+  application:
+    name: rabbitmq666
+  rabbitmq:
+    host: 39.107.90.56
+    port: 5672
+    username: guest
+    password: guest
