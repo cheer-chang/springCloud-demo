@@ -4,7 +4,12 @@ spring:
   application:
     name: rabbitmq666
   rabbitmq:
-    host: 
+    host: 你自己的ip
     port: 5672
     username: guest
     password: guest
+    publisher-confirms: true
+    publisher-returns: true
+rabbitmq-config:
+  exchange: exchange666
+  routingKey: routing666
