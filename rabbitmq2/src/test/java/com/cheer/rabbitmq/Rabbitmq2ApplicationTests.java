@@ -1,4 +1,4 @@
-package com.cheer.rabbitmq2;
+package com.cheer.rabbitmq;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

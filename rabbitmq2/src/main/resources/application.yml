@@ -4,7 +4,7 @@ spring:
   application:
     name: rabbitmq888
   rabbitmq:
-    host: 
+    host: 你自己的ip
     port: 5672
     username: guest
     password: guest
@@ -12,3 +12,6 @@ spring:
       simple:
         concurrency: 5
         max-concurrency: 16
+rabbitmq-config:
+  exchange: exchange666
+  routingKey: routing666
